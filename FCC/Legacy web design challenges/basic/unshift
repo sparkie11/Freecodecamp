@@ -1,0 +1,9 @@
+const myArray = [["John", 23], ["dog", 3]];
+
+// Remove the first element
+myArray.shift();
+
+// Add a new element to the beginning of the array
+myArray.unshift(["Paul", 35]);
+
+console.log(myArray);
